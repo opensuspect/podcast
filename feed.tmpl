@@ -47,6 +47,7 @@
         "length": "48:33",
         "link":"https://youtu.be/Xk9XgsOiFcE",
         "url": "https://podcast.opensuspect.com/episodes/ep1.mp3",
+        "format": "audio/mpeg",
         "date": "Tue, 02 Mar 2021 00:00:00 +0000"
 
     }
@@ -108,7 +109,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
             <link>$episode.link</link>
             <description>$episode.description</description>
             <pubDate>$episode.date</pubDate>
-            <enclosure url="$episode.url" length="1" type="audio/mpeg" />
+            <enclosure url="$episode.url" length="1" type="$episode.format" />
             <guid>$episode.url</guid>
             <itunes:subtitle>$episode.subtitle</itunes:subtitle>
             <itunes:summary>$episode.description</itunes:summary>

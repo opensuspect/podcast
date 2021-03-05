@@ -24,6 +24,7 @@ To add an episode, edit the `$episodes` variable. It is also in the JSON format.
         "length": "48:33",
         "link":"https://youtu.be/Xk9XgsOiFcE",
         "url": "https://podcast.opensuspect.com/episodes/ep1.mp3",
+        "format": "audio/mpeg",
         "date": "Tue, 02 Mar 2021 00:00:00 +0000"
 }
 ```
