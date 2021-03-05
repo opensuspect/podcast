@@ -3,8 +3,8 @@
 ## SHOW DETAILS:
 #set $showinfo = {
     "title": "OpenSuspect Podcast",
-    "description": "This is our description",
-    "subtitle": "this is like a short description",
+    "description": "Welcome to the OpenSuspect Podacst! In this show, contributors to the OpenSuspect project talk about the game, open-source projects and more!",
+    "subtitle": "A podcast about OpenSuspect, and open-source.",
     "image": {
         "url":"https://podcast.opensuspect.com/image.jpg",
         "width": "1080",
@@ -17,7 +17,7 @@
     "self_link": "https://podcast.opensuspect.com/feed.xml",
     "itunes_owner": {
         "name":"OpenSuspect",
-        "email": "insert email adress here"
+        "email": "opensuspect+podcast@gmail.com"
     }
 }
 ## EPISODES:
@@ -43,7 +43,7 @@
             LBRY: https://odysee.com/@nicemicro:6
             Web: nicemicro.com
         """,
-        "subtitle":"this episode's subtitle!",
+        "subtitle":"We talk about the game's status, other games, DE's and more!",
         "length": "48:33",
         "link":"https://youtu.be/Xk9XgsOiFcE",
         "url": "https://podcast.opensuspect.com/episodes/ep1.mp3",
@@ -51,6 +51,8 @@
 
     }
 ]
+
+## DON'T TOUCH THIS UNLESS YOU KNOW WHAT YOU'RE DOING:
 
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
@@ -64,6 +66,7 @@
 xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 >
+## YOU'VE BEEN WARNED
 <channel>
 	<title>$showinfo.title</title>
 	<atom:link href="$showinfo.self_link" rel="self" type="application/rss+xml" />
@@ -93,10 +96,15 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 		<url>$showinfo.image.url</url>
 		<link>$showinfo.link</link>
 	</image>
+
+    ## Loops through categories
+
     #for category in $showinfo.categories
 	<googleplay:category text="$category"/>
 	<itunes:category text="$category">
     #end for
+
+    #Loops through episodes
 
     #for episode in $episodes
 	    <item>
