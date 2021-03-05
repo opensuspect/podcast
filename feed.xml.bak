@@ -1,0 +1,81 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
+xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+>
+<channel>
+	<title>OpenSuspect Podcast</title>
+	<atom:link href="https://podcast.opensuspect.com/feed.xml" rel="self" type="application/rss+xml" />
+	<link>https://opensuspect.com/</link>
+	<description>This is our description</description>
+	<language>en</language>
+
+<image>
+	<url>https://podcast.opensuspect.com/image.jpg</url>
+	<title>OpenSuspect Podcast</title>
+	<link>https://opensuspect.com/</link>
+	<width>1080</width>
+	<height>1080</height>
+</image> 
+	<itunes:summary>This is our description</itunes:summary>
+	<itunes:author>OpenSuspect</itunes:author>
+	<itunes:explicit>clean</itunes:explicit>
+	<itunes:image href="https://podcast.opensuspect.com/image.jpg" />
+	<itunes:type>episodic</itunes:type>
+	<itunes:owner>
+		<itunes:name>OpenSuspect</itunes:name>
+		<itunes:email>insert email adress here</itunes:email>
+	</itunes:owner>
+	<itunes:subtitle>this is like a short description</itunes:subtitle>
+	<image>
+		<title>OpenSuspect Podcast</title>
+		<url>https://podcast.opensuspect.com/image.jpg</url>
+		<link>https://opensuspect.com/</link>
+	</image>
+	<googleplay:category text="Technology"/>
+	<itunes:category text="Technology">
+	<googleplay:category text="Leisure"/>
+	<itunes:category text="Leisure">
+	<googleplay:category text="Tech News"/>
+	<itunes:category text="Tech News">
+
+	    <item>
+            <title>OpenSuspect Podacst Episode #1</title>
+            <link>https://youtu.be/Xk9XgsOiFcE</link>
+            <pubDate>Tue, 02 Mar 2021 00:00:00 +0000</pubDate>
+            <enclosure url="https://podcast.opensuspect.com/episodes/ep1.mp3" length="1" type="audio/mpeg" />
+            <guid>https://podcast.opensuspect.com/episodes/ep1.mp3</guid>
+            <itunes:subtitle>this episode's subtitle!</itunes:subtitle>
+            <itunes:summary>
+            In this episode, Bestonecrazy, Nice Micro, and Cukmekerb talk about the status of the game, other games, desktop environments, and more.
+
+
+            How to find us:
+            OpenSuspect:
+            https://github.com/opensuspect/opensu...​
+            https://opensuspect.com/​
+
+            Cukmekerb's coding class:
+            YouTube: https://www.youtube.com/channel/UCzSl...​
+
+
+            NiceMicro:
+            Mastodon: https://distrotoot.com/@nicemicro​
+            YouTube: https://www.youtube.com/channel/UC2bk...​
+            LBRY: https://odysee.com/@nicemicro:6​
+            Web: nicemicro.com
+        </itunes:summary>
+            <itunes:author>OpenSuspect</itunes:author>
+            <itunes:image href="https://podcast.opensuspect.com/image.jpg" />
+            <itunes:duration>48:33</itunes:duration>
+		</item>
+    </channel>
+</rss>
