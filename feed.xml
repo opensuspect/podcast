@@ -42,11 +42,11 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 
 
 	<googleplay:category text="Technology"/>
-	<itunes:category text="Technology" />
+	<itunes:category text="Technology"/>
 	<googleplay:category text="Leisure"/>
-	<itunes:category text="Leisure" />
+	<itunes:category text="Leisure"/>
 	<googleplay:category text="Tech News"/>
-	<itunes:category text="Tech News" />
+	<itunes:category text="Tech News"/>
 
     #Loops through episodes
 
