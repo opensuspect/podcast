@@ -53,6 +53,25 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 	    <item>
             <title>OpenSuspect Podacst Episode #1</title>
             <link>https://youtu.be/Xk9XgsOiFcE</link>
+            <description>
+            In this episode, Bestonecrazy, Nice Micro, and Cukmekerb talk about the status of the game, other games, desktop environments, and more.
+
+
+            How to find us:
+            OpenSuspect:
+            https://github.com/opensuspect/opensuspect
+            https://opensuspect.com/
+
+            Cukmekerb's coding class:
+            YouTube: https://www.youtube.com/Cukmekerbscodingclass
+
+
+            NiceMicro:
+            Mastodon: https://distrotoot.com/@nicemicro
+            YouTube: https://www.youtube.com/channel/UC2bkdAPR47c7FkvwSXzzMzQ
+            LBRY: https://odysee.com/@nicemicro:6
+            Web: nicemicro.com
+        </description>
             <pubDate>Tue, 02 Mar 2021 00:00:00 +0000</pubDate>
             <enclosure url="https://podcast.opensuspect.com/episodes/ep1.mp3" length="1" type="audio/mpeg" />
             <guid>https://podcast.opensuspect.com/episodes/ep1.mp3</guid>
