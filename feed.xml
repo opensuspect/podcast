@@ -21,8 +21,8 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 	<url>https://podcast.opensuspect.com/image.jpg</url>
 	<title>OpenSuspect Podcast</title>
 	<link>https://opensuspect.com/</link>
-	<width>1080</width>
-	<height>1080</height>
+	<width>1400</width>
+	<height>1400</height>
 </image> 
 	<itunes:summary>Welcome to the OpenSuspect Podacst! In this show, contributors to the OpenSuspect project talk about the game, open-source projects and more!</itunes:summary>
 	<itunes:author>OpenSuspect</itunes:author>
