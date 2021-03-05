@@ -48,7 +48,6 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 	<googleplay:category text="Tech News"/>
 	<itunes:category text="Tech News"/>
 
-    #Loops through episodes
 
 	    <item>
             <title>OpenSuspect Podacst Episode #1</title>
