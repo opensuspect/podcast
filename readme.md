@@ -1,5 +1,5 @@
 # OpenSuspect Podcast Feed
-## Updating
+## Updating the Feed
 ### Editing the `feed.tmpl` file
 All of the show details are inside the `$showinfo` variable. It is in the JSON format, so it's fairly easy to read. Here's a snippet:
 ```JSON
@@ -32,3 +32,23 @@ To add an episode, edit the `$episodes` variable. It is also in the JSON format.
 ### Compiling the updated feed
 
 To compile your new feed, just run `./compile.sh` If you don't have the `Cheetah` Python3 package, you'll need to install it first. If anything happens to go wrong, the old version of the feed will be stored in `feed.xml.bak` If you screw up again, that's what git is for ;)
+
+## Updating the landing page
+
+
+### Changing the podcatchers
+The list of podcatchers is stored in the array called `$podcatchers`. Each item follows this format:
+```JSON
+{
+        "name": "Apple Podcasts",
+        "url": "https://podcasts.apple.com/podcast/id1556916527",
+        "icon": "https://podcasts.apple.com/favicon.ico"
+}
+```
+It's fairly self explanatory.
+
+Don't forget to run `./compile.sh` before commiting
+
+### Updating show info
+
+It's in the `$showinfo` array. It's very self explanatory.
