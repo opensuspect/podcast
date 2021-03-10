@@ -1,0 +1,79 @@
+#from Cheetah.Template import Template
+#extends Template
+## SHOW DETAILS:
+#set $showinfo = {
+    "title": "OpenSuspect Podacst",
+    "description": "Welcome to the OpenSuspect Podacst! In this show, contributors to the OpenSuspect project talk about the game, open-source projects and more!",
+    "favicon":"https://opensuspect.com/favicon.ico"
+}
+
+#PODCATCHER LINKS
+
+#set $podcatchers = [
+    {
+        "name": "Apple Podcasts",
+        "url": "https://podcasts.apple.com/podcast/id1556916527",
+        "icon": "https://podcasts.apple.com/favicon.ico"
+    },
+    {
+        "name": "TuneIn",
+        "icon": "https://cdn-web.tunein.com/assets/img/favicon-v2.ico",
+        "url": "https://tunein.com/podcasts/Technology-Podcasts/OpenSuspect-Podcast-p1414077/"
+    },
+    {
+        "name": "Spotify",
+        "icon": "https://open.scdn.co/cdn/images/favicon32.a19b4f5b.png",
+        "url": "https://open.spotify.com/show/6shDLY5fezmIFirpAappb4"
+    },
+    {
+        "name": "Stitcher",
+        "url": "https://www.stitcher.com/show/opensuspect-podcast",
+        "icon": "https://www.stitcher.com/favicon.ico"
+    },
+    {
+        "name": "Funkwhale",
+        "url": "https://music.zee.li/channels/opensuspectpodcast/",
+        "icon": "https://music.zee.li/front/favicon.png"
+    },
+    {
+        "name": "listenr",
+        "url": "https://lstnr.gq/OpenSuspect",
+        "icon': "https://listenr.gq/icon-192.png"
+    },
+    {
+        "name": "YouTube",
+        "url": "https://youtube.com/playlist?list=PLp2sbDFlULKiWZ_ib0T66akEb0s2R7NS9",
+        "icon": "https://www.youtube.com/s/desktop/01a10dcc/img/favicon_32.png"
+    }
+]
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="$showinfo.favicon">
+    <link rel="stylesheet" href="index.css">
+    <meta name="description" content="$showinfo.description">
+    <title>$showinfo.title</title>
+</head>
+
+<body>
+    <h1 class="center">$showinfo.title</h1>
+    <p class="center">
+        <i>
+            Subscribe On
+        </i>
+    </p>
+    <div class="flex" id="podcatcher_list">
+    #for catcher in $podcatchers
+        <a class="podcatcher" target="_blank" href="$catcher.url" title="$catcher.name">
+            <img src="$catcher.icon">
+        </a>
+    #end for
+    </div>
+</body>
+
+</html>
