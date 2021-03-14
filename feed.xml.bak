@@ -13,14 +13,14 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 <channel>
 	<title>OpenSuspect Podcast</title>
 	<atom:link href="https://podcast.opensuspect.com/feed.xml" rel="self" type="application/rss+xml" />
-	<link>https://opensuspect.com/</link>
+	<link>https://podcast.opensuspect.com/</link>
 	<description>Welcome to the OpenSuspect Podacst! In this show, contributors to the OpenSuspect project talk about the game, open-source projects and more!</description>
 	<language>en</language>
 
 <image>
 	<url>https://podcast.opensuspect.com/image.jpg</url>
 	<title>OpenSuspect Podcast</title>
-	<link>https://opensuspect.com/</link>
+	<link>https://podcast.opensuspect.com/</link>
 	<width>1400</width>
 	<height>1400</height>
 </image> 
@@ -37,7 +37,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 	<image>
 		<title>OpenSuspect Podcast</title>
 		<url>https://podcast.opensuspect.com/image.jpg</url>
-		<link>https://opensuspect.com/</link>
+		<link>https://podcast.opensuspect.com/</link>
 	</image>
 
 
