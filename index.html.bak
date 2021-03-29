@@ -23,31 +23,31 @@
     </p>
     <div class="flex" id="podcatcher_list">
         <a class="podcatcher" target="_blank" href="https://podcasts.apple.com/podcast/id1556916527" title="Apple Podcasts">
-            <img src="https://podcasts.apple.com/favicon.ico">
+            <img src="https://podcasts.apple.com/favicon.ico" alt="Apple Podcasts">
         </a>
         <a class="podcatcher" target="_blank" href="https://podcasts.google.com/feed/aHR0cHM6Ly9wb2RjYXN0Lm9wZW5zdXNwZWN0LmNvbS9mZWVkLnhtbA" title="Google Podcasts">
-            <img src="https://ssl.gstatic.com/images/branding/product/2x/podcasts_24dp.png">
+            <img src="https://ssl.gstatic.com/images/branding/product/2x/podcasts_24dp.png" alt="Google Podcasts">
         </a>
         <a class="podcatcher" target="_blank" href="https://tunein.com/podcasts/Technology-Podcasts/OpenSuspect-Podcast-p1414077/" title="TuneIn">
-            <img src="https://cdn-web.tunein.com/assets/img/favicon-v2.ico">
+            <img src="https://cdn-web.tunein.com/assets/img/favicon-v2.ico" alt="TuneIn">
         </a>
         <a class="podcatcher" target="_blank" href="https://open.spotify.com/show/6shDLY5fezmIFirpAappb4" title="Spotify">
-            <img src="https://open.scdn.co/cdn/images/favicon32.a19b4f5b.png">
+            <img src="https://open.scdn.co/cdn/images/favicon32.a19b4f5b.png" alt="Spotify">
         </a>
         <a class="podcatcher" target="_blank" href="https://www.stitcher.com/show/opensuspect-podcast" title="Stitcher">
-            <img src="https://www.stitcher.com/favicon.ico">
+            <img src="https://www.stitcher.com/favicon.ico" alt="Stitcher">
         </a>
         <a class="podcatcher" target="_blank" href="https://music.zee.li/channels/opensuspectpodcast/" title="Funkwhale">
-            <img src="https://music.zee.li/front/favicon.png">
+            <img src="https://music.zee.li/front/favicon.png" alt="Funkwhale">
         </a>
         <a class="podcatcher" target="_blank" href="https://lstnr.gq/OpenSuspect" title="listenr">
-            <img src="https://listenr.gq/icon-192.png">
+            <img src="https://listenr.gq/icon-192.png" alt="listenr">
         </a>
         <a class="podcatcher" target="_blank" href="https://youtube.com/playlist?list=PLp2sbDFlULKiWZ_ib0T66akEb0s2R7NS9" title="YouTube">
-            <img src="https://www.youtube.com/s/desktop/01a10dcc/img/favicon_32.png">
+            <img src="https://www.youtube.com/s/desktop/01a10dcc/img/favicon_32.png" alt="YouTube">
         </a>
         <a class="podcatcher" target="_blank" href="https://podcast.opensuspect.com/feed.xml" title="RSS">
-            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png" alt="RSS">
         </a>
     </div>
 </body>

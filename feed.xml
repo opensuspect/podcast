@@ -47,6 +47,8 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 	<itunes:category text="Leisure"/>
 	<googleplay:category text="Tech News"/>
 	<itunes:category text="Tech News"/>
+	<googleplay:category text="Video Games"/>
+	<itunes:category text="Video Games"/>
 
 
 	    <item>

@@ -12,6 +12,8 @@ All of the show details are inside the `$showinfo` variable. It is in the JSON f
         "height": "1080"
     }
 ```
+The `$categories` list must only include categories that are officially dedicated by iTunes, these are not keywords.
+
 To add an episode, edit the `$episodes` variable. It is also in the JSON format. Here's an example episode:
 
 ```JSON
