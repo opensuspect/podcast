@@ -25,6 +25,9 @@
         <a class="podcatcher" target="_blank" href="https://podcasts.apple.com/podcast/id1556916527" title="Apple Podcasts">
             <img src="https://podcasts.apple.com/favicon.ico">
         </a>
+        <a class="podcatcher" target="_blank" href="https://podcasts.google.com/feed/aHR0cHM6Ly9wb2RjYXN0Lm9wZW5zdXNwZWN0LmNvbS9mZWVkLnhtbA" title="Google Podcasts">
+            <img src="https://ssl.gstatic.com/images/branding/product/2x/podcasts_24dp.png">
+        </a>
         <a class="podcatcher" target="_blank" href="https://tunein.com/podcasts/Technology-Podcasts/OpenSuspect-Podcast-p1414077/" title="TuneIn">
             <img src="https://cdn-web.tunein.com/assets/img/favicon-v2.ico">
         </a>

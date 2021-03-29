@@ -28,6 +28,7 @@ To add an episode, edit the `$episodes` variable. It is also in the JSON format.
         "date": "Tue, 02 Mar 2021 00:00:00 +0000"
 }
 ```
+Make sure to add new episodes to the top, and not the bottom of the list, so that more recent episodes appear at the top.
 
 ### Compiling the updated feed
 
@@ -37,7 +38,7 @@ To compile your new feed, just run `./compile.sh` If you don't have the `Cheetah
 
 
 ### Changing the podcatchers
-The list of podcatchers is stored in the array called `$podcatchers`. Each item follows this format:
+The list of podcatchers is stored in the list called `$podcatchers`. Each item follows this format:
 ```JSON
 {
         "name": "Apple Podcasts",
@@ -51,4 +52,4 @@ Don't forget to run `./compile.sh` before commiting
 
 ### Updating show info
 
-It's in the `$showinfo` array. It's very self explanatory.
+It's in the `$showinfo` array. It's also very self explanatory.
