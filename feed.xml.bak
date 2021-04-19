@@ -47,8 +47,69 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 	<itunes:category text="Leisure"/>
 	<googleplay:category text="Tech News"/>
 	<itunes:category text="Tech News"/>
+	<googleplay:category text="Video Games"/>
+	<itunes:category text="Video Games"/>
 
 
+	    <item>
+            <title>#2: Federated Social Media and Talking to Strangers</title>
+            <link>https://youtu.be/6JsbSLU4GCQ</link>
+            <description>
+      In the second episode of the OpenSuspect podast, we discuss the status of the game, federated social networks, plasma mobile, and talk to a bunch of strangers who found our room.
+
+      The collaborrative programming app:
+      https://caucus-app.herokuapp.com/
+      https://github.com/Rishabh-malhotraa/caucus
+      
+      Transcrypt:
+      https://transcrypt.org/
+      
+      Subscribe on your favorite podcatcher:
+      https://podcast.opensuspect.com/
+      
+      Contribute:
+      https://github.com/opensuspect/opensuspect
+      https://matrix.to/#/+among_us:matrix.org
+      
+      Brainf*** hello world program:
+      https://pastebin.com/Q97nLYnc
+      
+      Ook! hello world program:
+      https://pastebin.com/AUyVvdD4
+
+      </description>
+            <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
+            <enclosure url="https://podcast.opensuspect.com/episodes/ep2.mp3" length="1" type="audio/mpeg" />
+            <guid>https://podcast.opensuspect.com/episodes/ep2.mp3</guid>
+            <itunes:subtitle>We talk about the game's status, federated social networks, and more (with strangers)</itunes:subtitle>
+            <itunes:summary>
+      In the second episode of the OpenSuspect podast, we discuss the status of the game, federated social networks, plasma mobile, and talk to a bunch of strangers who found our room.
+
+      The collaborrative programming app:
+      https://caucus-app.herokuapp.com/
+      https://github.com/Rishabh-malhotraa/caucus
+      
+      Transcrypt:
+      https://transcrypt.org/
+      
+      Subscribe on your favorite podcatcher:
+      https://podcast.opensuspect.com/
+      
+      Contribute:
+      https://github.com/opensuspect/opensuspect
+      https://matrix.to/#/+among_us:matrix.org
+      
+      Brainf*** hello world program:
+      https://pastebin.com/Q97nLYnc
+      
+      Ook! hello world program:
+      https://pastebin.com/AUyVvdD4
+
+      </itunes:summary>
+            <itunes:author>OpenSuspect</itunes:author>
+            <itunes:image href="https://podcast.opensuspect.com/image.jpg" />
+            <itunes:duration>1:02:40</itunes:duration>
+		</item>
 	    <item>
             <title>OpenSuspect Podacst Episode #1</title>
             <link>https://youtu.be/Xk9XgsOiFcE</link>
