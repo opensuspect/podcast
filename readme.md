@@ -34,7 +34,7 @@ Make sure to add new episodes to the top, and not the bottom of the list, so tha
 
 ### Compiling the updated feed
 
-To compile your new feed, just run `./compile.sh` If you don't have the `Cheetah` Python3 package, you'll need to install it first. If anything happens to go wrong, the old version of the feed will be stored in `feed.xml.bak` If you screw up again, that's what git is for ;)
+To compile your new feed, just run `./compile.sh` If you don't have the `Cheetah3` Python2 package, you'll need to install it first. If anything happens to go wrong, the old version of the feed will be stored in `feed.xml.bak` If you screw up again, that's what git is for ;)
 
 ## Updating the landing page
 
